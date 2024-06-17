@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 1 calc(33.333% - 1rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    flex: 0 1 calc(25% - 1rem);
+  }
+}
